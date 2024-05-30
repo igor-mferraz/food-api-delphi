@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/05/26 16:32:15.000.958,=C:\Users\igorm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/05/26 16:32:55.000.767,C:\Users\igorm\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\igorm\Documents\foodAPI\UnitPrincipal.fmx</Transaction>
+    <Transaction>2024/05/26 16:32:55.000.767,C:\Users\igorm\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\igorm\Documents\foodAPI\UnitPrincipal.pas</Transaction>
+    <Transaction>2024/05/26 16:33:18.000.091,C:\Users\igorm\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\igorm\Documents\foodAPI\ServidorFood.dproj</Transaction>
+    <Transaction>2024/05/30 12:01:54.204,=C:\Users\igorm\Documents\foodAPI\Unit1.pas</Transaction>
+    <Transaction>2024/05/30 12:03:07.228,C:\Users\igorm\Documents\foodAPI\Controllers\Controllers.Cardapio.pas=C:\Users\igorm\Documents\foodAPI\Unit1.pas</Transaction>
+    <Transaction>2024/05/30 12:27:04.110,=C:\Users\igorm\Documents\foodAPI\Unit1.pas</Transaction>
+    <Transaction>2024/05/30 12:27:29.672,C:\Users\igorm\Documents\foodAPI\Controllers\Controllers.Pedido.pas=C:\Users\igorm\Documents\foodAPI\Unit1.pas</Transaction>
+    <Transaction>2024/05/30 12:57:16.195,=C:\Users\igorm\Documents\foodAPI\Unit1.pas</Transaction>
+    <Transaction>2024/05/30 12:57:37.844,C:\Users\igorm\Documents\foodAPI\Controllers\Controllers.Config.pas=C:\Users\igorm\Documents\foodAPI\Unit1.pas</Transaction>
+    <Transaction>2024/05/30 13:02:18.984,=C:\Users\igorm\Documents\foodAPI\Unit1.pas</Transaction>
+    <Transaction>2024/05/30 13:03:01.491,C:\Users\igorm\Documents\foodAPI\DataModules\DataModule.Global.pas=C:\Users\igorm\Documents\foodAPI\Unit1.pas</Transaction>
+    <Transaction>2024/05/30 13:03:01.491,C:\Users\igorm\Documents\foodAPI\DataModules\DataModule.Global.dfm=C:\Users\igorm\Documents\foodAPI\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

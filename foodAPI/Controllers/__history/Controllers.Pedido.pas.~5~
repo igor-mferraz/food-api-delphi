@@ -1,0 +1,34 @@
+unit Controllers.Pedido;
+
+interface
+
+uses Horse,
+     System.JSON,
+     System.SysUtils;
+
+procedure RegistrarRotas;
+procedure ListarCardapios(Req: ThorseRequest; Res: ThorseResponse; Next: TProc);
+procedure ListarPedidos(Req: ThorseRequest; Res: ThorseResponse; Next: TProc);
+procedure InserirPedido(Req: ThorseRequest; Res: ThorseResponse; Next: TProc);
+
+implementation
+
+procedure RegistrarRotas;
+begin
+   THorse.Get('/pedidos', ListarPedidos);
+   THorse.Post('/pedidos', InserirPedido);
+end;
+
+procedure ListarPedidos(Req: ThorseRequest; Res: ThorseResponse; Next: TProc);
+begin
+     Res.Send('listar pedidos!').Status(200);
+end;
+
+procedure InserirPedido(Req: ThorseRequest; Res: ThorseResponse; Next: TProc);
+begin
+     Res.Send('inserir pedidos!').Status(200);
+end;
+
+
+
+end.

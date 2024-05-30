@@ -1,0 +1,15 @@
+program ServidorFood;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  UnitPrincipal in 'UnitPrincipal.pas' {FrmPrincipal},
+  Controllers.Cardapio in 'Controllers\Controllers.Cardapio.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.Run;
+end.

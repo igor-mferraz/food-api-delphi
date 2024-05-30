@@ -1,0 +1,26 @@
+unit Controllers.Cardapio;
+
+interface
+
+uses Horse,
+     System.JSON,
+     System.SysUtils;
+
+procedure RegistrarRotas;
+procedure ListarCardapios(Req: ThorseRequest; Res: ThorseResponse; Next: TProc);
+
+implementation
+
+procedure RegistrarRotas;
+begin
+   THorse.Get('/cardapios', ListarCardapios);
+end;
+
+
+procedure ListarCardapios(Req: ThorseRequest; Res: ThorseResponse; Next: TProc);
+begin
+     Res.Send('funcionou!').Status(200);
+end;
+
+
+end.
